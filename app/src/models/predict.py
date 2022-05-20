@@ -39,7 +39,7 @@ def predict_pipeline(data, model_info_db_name='models-db'):
     return model.predict(data_df).tolist()
 
 
-def load_model(name, bucket_name='models-uem'):
+def load_model(name, bucket_name='uem'):
     """
          Función para cargar el modelo en IBM COS
 
